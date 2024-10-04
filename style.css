@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E3F2FD; /* أزرق فاتح */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #0288D1; /* أزرق داكن */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #FFFFFF; /* نص العنوان بالأبيض */
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #FFFFFF; /* نص العناوين الفرعية بالأبيض */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF; /* نص الفقرات بالأبيض */
+}
