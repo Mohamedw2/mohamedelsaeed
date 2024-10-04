@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f0f0f0, #c0c0c0);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+}
+
+.cover-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s; /* تأثير تكبير الصورة */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 15px 0 5px;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none; /* إزالة النقاط من القوائم */
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #007BFF; /* لون الزر */
+    color: white; /* لون النص */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* لون الزر عند التحويم */
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.progress-bar {
+    background: #e0e0e0;
+    border-radius: 5px;
+    height: 20px;
+    margin: 10px 0;
+}
+
+.progress {
+    background: #007BFF;
+    height: 100%;
+    border-radius: 5px;
+}
